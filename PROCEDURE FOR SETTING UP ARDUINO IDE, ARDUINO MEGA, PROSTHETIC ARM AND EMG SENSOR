@@ -1,0 +1,18 @@
+1: Download the Arduino IDE
+The latest version of the IDE can be downloaded from the official website. Link: www.arduino.cc/en/software
+
+2: Interfacing EMG Sensor
+
+The EMG Sensor is interfaced with Arduino MEGA board.
+
+3: Verify the device
+Open device manager in your PC and expand the ports, you should see that the Arduino MEGA board is detected, if not you need to install the required drivers.
+
+4: Compile your sketch
+Open the file which contains the source code. Hit the compile button in the top- left corner of the IDE. You should see that the code is compiled successfully without any errors.
+
+5: Upload the sketch
+Hit the upload button. Now while the code uploads, you should see the LED in the board blinking indicating data transfer between the board and the computer.
+
+6: Output
+The Prosthetic Arm opens and closes the finger according to the EMG data and the servo motor rotates according to it
